@@ -24,10 +24,33 @@
                 <li class="navigation-page"> <a class="navigation-page-link" href="./contacts.html">Контакты</a>
                 </li>
             </nav>
-            <button class="header-login-btn">Войти</button>
+            <button class="header-login-btn" id="registerBtn">Войти</button>
         </div>
     </div>
 </header>
+
+<div id="registerModal" class="modal">
+  <div class="modal-content">
+      <span class="close">&times;</span>
+      <h1 class="modal-reg-title">Welcome</h1>
+      <img  class="header-logo modal-form-logo" src="./image/logo.svg" alt="">
+      <form id="registerForm">
+          <div class="form-group">
+              <input type="text" id="username" placeholder="User Name" name="userplaceholder="" name" required>
+          </div>
+          <div class="form-group">
+              <input type="email" id="email" placeholder="Email" name="email" required>
+          </div>
+          <div class="form-group">
+              <input type="password" id="password" placeholder="Password" name="password" required>
+          </div>
+  
+          <button type="submit" class="submit-btn">Зарегистрироваться</button>
+      </form>
+  </div>
+</div>
+
+
 
 <section>
   <div class="container">
@@ -83,7 +106,7 @@
   </div>
 </footer>
 
-
+<script src="./modalWin.js"></script>
 <script src="./app.js"></script>
 </body>
 </html>
