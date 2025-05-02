@@ -1,0 +1,363 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* ------------------------------------------------------------------------- */
+
+header {
+    width: 100%;
+    background-color: #333333;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+.header-logo {
+    width: 200px;
+    height: auto;
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.navigation-page {
+    margin: 0 20px 0 20px;
+    cursor: pointer;
+
+}
+
+.navigation-page-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-login-btn {
+    padding: 8px 30px;
+    background-color: rgb(255, 67, 67);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.header-login-btn:hover {
+    transition: 2s;
+    background-color: rgb(255, 0, 0);
+}
+
+/* ------------------------------------------------------------------------- */
+
+.history-prog-lang-aboutAuthorlang {
+    /* text-align: center; */
+    width: 100%;
+}
+
+.history-prog-lang-aboutAuthor-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.history-prog-lang-aboutAuthor-title-textContent {
+    font-size: 2.2em;
+    font-weight: 800;
+}
+
+.history-prog-lang-aboutAuthor-imageAndSubtitle {
+    margin: 0 auto;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.history-prog-lang-aboutAuthor-suntitle {
+    font-size: 1.6em;
+    font-weight: 600;
+    line-height: 1.9em;
+    margin-top: 1em;
+    width: 60%;
+}
+
+.history-prog-lang-aboutAuthor-image {
+    width: 40%;
+}
+
+/* ------------------------------------------------------------------------ */
+
+.history-prog-lang {
+    width: 85%;
+    margin: 0 auto;
+    background-color: rgb(233, 250, 201);
+    text-align: center;
+    border-radius: 2em;
+    margin-top: 10em;
+    padding: 20px 0;
+}
+
+.history-prog-lang-image {
+    width: 95%;
+    height: auto;
+    text-align: center;
+
+}
+
+.history-prog-lang-sutitle {
+    margin: 0 auto;
+    width: 80%;
+    font-size: 1.4em;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/* ------------------------------------------------------------------ */
+
+.top-prog-lang {
+    margin-top: 8em;
+}
+
+.top-prog-lang-title {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.top-prog-lang-block {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-top: 3em;
+}
+
+.prog-lang {
+    background-color: #e0c8f3;
+    width: 26%;
+    padding: 15px;
+    border-radius: 20px;
+    -webkit-box-shadow: 1px 0px 25px -3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 0px 25px -3px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 0px 25px -3px rgba(0, 0, 0, 0.5);
+}
+
+.prog-lang-titleAndImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.prog-lang-title {
+    margin-left: 10px;
+    color: #333;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.prog-lang-subtitle {
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 1.4em;
+}
+
+.prog-lang-image {
+    width: 25%;
+    height: fit-content;
+
+}
+
+/* ------------------------------------------------------------------ */
+
+.faq {
+    margin-top: 120px;
+}
+
+.faq-header-block {
+    display: flex;
+    justify-content: center;
+}
+
+.faq-header {
+    font-size: 34px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.faq-items {
+    margin-top: 3em;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
+.faq-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.faq-item-text {
+    padding: 12px;
+    font-size: 20px;
+    color: var(--color-dark-brown);
+    font-weight: 300;
+}
+
+.faq-item-image-block {
+    width: 4%;
+    margin-right: 8px;
+}
+
+.faq-item-image {
+    width: 90%;
+}
+
+/* --------------------------------------------------------------------- */
+
+footer {
+    background-color: #333333;
+}
+
+
+.navAndLogo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 45%;
+}
+
+.footer-nav-title {
+    color: #fff;
+    padding-top: 1em;
+}
+
+.footer-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.footer-nav {
+    list-style: none;
+    margin-top: 1.2em;
+    margin-bottom: 1em;
+    display: flex;
+    color: white;
+    font-size: 1.2em;
+    justify-content: space-between;
+}
+
+.footer-navigation-page {
+    font-size: 1.2em;
+}
+
+.footer-contact-info {
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.footer-contact-info-textContent {
+    font-size: 1.4em;
+}
+
+
+
+.logoAndCopyRight {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5em 0 2em 0;
+    margin: 0 auto;
+}
+
+.copyRight-Text {
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.footer-networks-images {
+    margin-right: 15px;
+    width: 40px;
+}
+
+/* -------------------------------------------------------- */
+
+.news-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 2em 0 5em 0;
+}
+
+.news-container-title{
+    margin: 2em 0;
+    /* display: flex; */
+    /* align-items: baseline; */
+}
+
+.news-block{
+    width: 30%;
+    border: #333 1px solid;
+    padding: 1%;
+    display: grid;
+    align-items: start;
+    justify-items: end;
+}
+
+.news-block-image{
+    width: 100%;
+    height: auto;
+}
+
+.news-block-title{
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+.news-block-subtitle{
+    /* font-weight: 300; */
+    margin-top: 10px;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.news-block-date{
+    /* text-align: right; */
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #333333;
+    /* margin-top: 10px; */
+    display: flex;
+    align-items: flex-end;
+}

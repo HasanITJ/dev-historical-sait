@@ -1,0 +1,36 @@
+.legends-prog-person {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.legends-prog-title {
+    font-size: 2em;
+    font-weight: 700;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.prog-person {
+    display: flex;
+    flex-direction: column;
+}
+
+.prog-person-title {
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-top: 2em;
+}
+
+.prog-person-subtitle {
+    font-size: 1.4em;
+    margin-top: 1em;
+}
+
+.prog-person-image {
+    width: 100%;
+    /* margin-top: 1em; */
+    /* margin-bottom: 1em; */
+    margin: 1em 0 4em 0;
+}

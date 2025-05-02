@@ -1,0 +1,58 @@
+.contacts-block {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 5em;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+}
+
+.contacts-block-title {
+    margin-bottom: 1em;
+}
+
+.contacts-info {
+    width: 30%;
+    background-color: #EBEBEB;
+}
+
+
+.contacts-info-header {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 1em 0 0.5em 0;
+    text-align: center;
+}
+
+.contacts-info-hr {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contacts-info-textContent {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+.contacts-info-title {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #6E6E6E;
+}
+
+.contacts-info-subtitle {
+    font-weight: 600;
+    font-size: 1.2em;
+    margin: 1em 0 1em 0;
+}
+
+.contacts-info-email {
+    margin-top: 1em;
+    color: #333;
+    font-weight: 600;
+    font-size: 1.2em;
+}
